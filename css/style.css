@@ -1,0 +1,200 @@
+/* Element wide attributes */
+body {
+	margin: 0;
+	background-color: #1d1c1f;
+	text-align: center;
+}
+
+p, h3, dt, dd, li, form {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+h1, h2 {
+	color: white;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #8ab8f8;
+}
+a:hover {
+	text-decoration: underline;
+	color: #acccf8;
+}
+h3 > a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	color: rgba(0, 0, 0, 0);
+	position: relative;
+	width: 35%;
+	border: dashed #5d5963;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header/title */
+h1.title {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	margin: 0px 20px 0px 20px;
+	
+	background-color: #78b5ff;
+	margin: auto;
+	width: 30%;
+	background-size: auto;
+	padding: 10px 0px 10px 0px;
+	filter: drop-shadow(7px 7px 0px #2a5385);
+}
+h2.title {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	width: 60%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.main-top {
+	margin: 0;
+	padding: 20px;
+	background: url("../images/bg.png");
+	background-position-y: -400px;
+	height: auto;
+	box-shadow: 0px -100px 300px 100px #1d1c1f inset;
+}
+
+.main-mid {
+}
+
+/* cool gradient dude */
+.main-bot {
+	background-image: linear-gradient(#1d1c1f, #3d263c);
+	padding-top: 10px;
+}
+
+/* fancy button tech */
+.button {
+	background-color: #78b5ff;
+	margin: auto;
+	width: 12%;
+	background-size: auto;
+	padding: 10px 0px 10px 0px;
+	filter: drop-shadow(4px 4px 0px #2a5385);
+}
+.button:hover {
+	filter: drop-shadow(6px 6px 0px #3c79c3);
+}
+
+.photo {
+	width: 220px;
+	max-width: 50%;
+	height: auto;
+	
+	border: solid 4px #78b5ff;
+	filter: drop-shadow(7px 7px 0px #2a5385);
+}
+
+/* Header float stuff (god i wish i had flexbox) */
+#desc-left {
+	float: left;
+	position: relative;
+}
+#desc-right {
+	position: relative;
+	/*margin-top: 20px;*/
+	text-align: left;
+	width: 50%;
+	padding-left: 300px;
+}
+.top-floating {
+	width: 70%;
+	margin: auto;
+	padding-left: 200px;
+}
+.top-floating:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+h2.desc-text {
+	font-size: 40px;
+	width: 65%;
+}
+
+/* Header images */
+#img1 {
+	position: absolute;
+	left: 0%;
+	top: -50px;
+	width: 60%;
+}
+#img2 {
+	position: absolute;
+	right: 12%;
+	top: -20px;
+	max-width: 50%;
+	height: auto;
+}
+
+/* Main content floating/columns */
+.main-row {
+	width: 30%;
+	margin: auto;
+}
+.main-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.flavor-img-left {
+	float: left;
+	position: relative;
+	max-width: 20%;
+	height: auto;
+	left: 20%;
+}
+.flavor-img-right {
+	float: right;
+	position: relative;
+	max-width: 20%;
+	height: auto;
+	right: 5%;
+}
+
+/* Contact form floating */
+.contact-row {
+	width: 50%;
+	margin: auto;
+	left: 20%;
+}
+.contact-left {
+	float: left;
+	width: 15%;
+	position: relative;
+	text-align: right;
+	left: 30%;
+}
+.contact-right {
+	float: right;
+	width: 50%;
+	position: relative;
+}
+textarea {
+	justify-items: left;
+}
+
+/* copyrekt!!! lol!!!! */
+#copyright {
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
